@@ -20,3 +20,5 @@ def binary_search(element, array):
 if __name__ == '__main__':
     vector = [2, 4, 6, 8, 12, 13, 15]
     print(binary_search(12, vector))
+    
+# It is binaru search so its complexity is O(logn)
