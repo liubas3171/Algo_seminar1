@@ -54,3 +54,9 @@ def find_two_closest(array):
 if __name__ == '__main__':
     a = [3, 10, 20, 2, 50, 5, 90, 100]
     print(find_two_closest(a))
+    
+    
+# Calculating complexity:
+# Sorting - O(nlog(n))
+# Finding pair - O(n)
+# General: O(n + nlog(n)) = O(nlog(n))
