@@ -21,3 +21,6 @@ if __name__ == '__main__':
     a = [2, 3, 6, 9, 10, 11, 12]
     b = [2, 4, 6, 7, 8, 11, 13]
     find_common_elements(a, b)
+    
+    # Calculating of complexity:
+    # There are 2n moves what mean that complexity = O(n)
